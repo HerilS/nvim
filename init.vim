@@ -25,7 +25,6 @@ nnoremap S :%s//gI<Left><Left><Left>
 call plug#begin("~/.vim/plugged")
 
 Plug 'voldikss/vim-floaterm'
-
 Plug 'vim-airline/vim-airline'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'vim-airline/vim-airline-themes'
@@ -39,6 +38,7 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'ayu-theme/ayu-vim'
 Plug 'NLKNguyen/papercolor-theme'
