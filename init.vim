@@ -48,6 +48,7 @@ Plug 'ghifarit53/tokyonight-vim'
 Plug 'joshdick/onedark.vim'
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 Plug 'sheerun/vim-polyglot'
+Plug 'kana/vim-fakeclip'
 
 call plug#end()
 
