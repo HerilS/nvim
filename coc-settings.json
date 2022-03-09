@@ -2,6 +2,8 @@
   "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"],
   "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.trace.server": "verbose",
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
